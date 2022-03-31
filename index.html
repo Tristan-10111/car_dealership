@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>car dealership</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&family=MuseoModerno:wght@300&family=Sansita+Swashed&family=Shadows+Into+Light&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header id="footer"></header>
+    <div class="container">
+      <div class="navbar">
+        <a href="https://www.autotrader.co.za/"
+          ><img src="/images/Jap autotraders.gif" alt="logo" class="logo"
+        /></a>
+        <nav>
+          <ul id="menuList">
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="service.html">Service</a></li>
+          </ul>
+        </nav>
+        <img
+          src="/images/burger menu.png"
+          class="menu-icon"
+          onclick="togglemenu()"
+        />
+      </div>
+      <div class="slogan">
+        <h1>
+          Dont only dream it,<br />
+          Just drive it
+        </h1>
+        <p>Drive like a Boss!</p>
+        <h4>FEATURED LISTINGS↘</h4>
+      </div>
+      <div class="row">
+        <div class="col-1">
+          <h2>
+            Toyota carolla<br />
+            Ke70
+          </h2>
+          <h3>4A-GZE(167 hp @7,400 RPM)</h3>
+          <h3>80 000km</h3>
+          <p>sporty/good-looking/comfortable</p>
+          <p>(Tap image for more Info)</p>
+          <h4>R45 000</h4>
+          <button type="button">
+            Order now <img src="/images/arrow image.png" alt="arrow" />
+          </button>
+        </div>
+        <div class="col-2">
+          <a href="https://en.wikipedia.org/wiki/Toyota_Corolla_(E70)"
+            ><img src="/images/boxie.jpg" alt="toyota ke70" class="car"
+          /></a>
+          <div class="color-box"></div>
+          <div class="add-btn">
+            <img src="/images/add-btn.png" />
+            <p><small>Add to Cart</small></p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1">
+          <h2>
+            Toyota Hilux<br />
+            Singal Cab 2012
+          </h2>
+          <h3>3.0 D-4D(171 hp @3,600 RPM & 343nm)</h3>
+          <h3>120 000km</h3>
+          <p>Durable/Tough/good-looking/comfortable</p>
+          <p>(Tap image for more Info)</p>
+          <h4>R125 000</h4>
+          <button type="button">
+            Order now <img src="/images/arrow image.png" alt="arrow" />
+          </button>
+        </div>
+        <div class="col-2">
+          <a href="https://en.wikipedia.org/wiki/Toyota_Hilux"
+            ><img
+              src="/images/toyota hilux 2.jpg"
+              alt="toyota slantfront "
+              class="car"
+          /></a>
+          <div class="color-box"></div>
+          <div class="add-btn">
+            <img src="/images/add-btn.png" />
+            <p><small>Add to Cart</small></p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1">
+          <h2>
+            Toyota Supra<br />
+            MK4 95'
+          </h2>
+          <h3>2JZ-GTE (321 hp @7,400 RPM)</h3>
+          <h3>250 000km</h3>
+          <p>very-fast/best-looking/capable of 2000HP</p>
+          <p>(Tap image for more Info)</p>
+          <h4>R650 000</h4>
+          <button type="button">
+            Order now <img src="/images/arrow image.png" alt="arrow" />
+          </button>
+        </div>
+        <div class="col-2">
+          <a href="https://wiki2.org/en/Toyota_Supra">
+            <img src="/images/Toyota Supra.jpeg" alt="toyota ke70" class="car"
+          /></a>
+          <div class="color-box"></div>
+          <div class="add-btn">
+            <img src="/images/add-btn.png" />
+            <p><small>Add to Cart</small></p>
+          </div>
+        </div>
+      </div>
+      <div class="social-links">
+        <a href="https://www.facebook.com/"
+          ><img src="/images/facebook icon.jpeg"
+        /></a>
+        <a href="https://www.instagram.com/"
+          ><img src="/images/instagram icon.png"
+        /></a>
+        <a href="https://twitter.com/?lang=en"
+          ><img src="/images/twitter icon.png"
+        /></a>
+      </div>
+    </div>
+    <footer id="header">@copyright Jap Autoraders™</footer>
+
+    <script>
+      var menuList = document.getElementById("menuList");
+      menuList.style.maxHeight = "0px";
+      function togglemenu() {
+        if (menuList.style.maxHeight == "0px") {
+          menuList.style.maxHeight = "130px";
+        } else {
+          menuList.style.maxHeight = "0px";
+        }
+      }
+    </script>
+  </body>
+</html>

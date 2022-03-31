@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&family=MuseoModerno:wght@300&family=Sansita+Swashed&family=Shadows+Into+Light&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header id="footer"></header>
+    <div class="container">
+      <div class="navbar">
+        <a href="https://www.autotrader.co.za/"
+          ><img src="/images/Jap autotraders.gif" alt="logo" class="logo"
+        /></a>
+        <nav>
+          <ul id="menuList">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a class="active" href="contact.html">Contact</a></li>
+            <li><a href="service.html">Service</a></li>
+          </ul>
+        </nav>
+        <img
+          src="/images/burger menu.png"
+          class="menu-icon"
+          onclick="togglemenu()"
+        />
+      </div>
+      <div class="contact-content">
+        <div class="slogan">
+          <h1>Contact us</h1>
+          <h2 style="color: lightgreen">We care about customer satisfactory</h2>
+        </div>
+      </div>
+      <form class="contact-inner-container">
+        <p>
+          <label class="labels" for="name">Full Name:</label>
+          <input type="text" name="name" />
+        </p>
+        <p>
+          <label class="labels" for="email-adress">Email adress:</label>
+          <input type="email" name="email-adress" />
+        </p>
+        <p>
+          <label class="labels" for="phone-number">Phone number:</label>
+          <input type="tel" name="phone-number" />
+        </p>
+        <p>
+          <label for="prefference" class="labels"
+            >Select your need/prefernce:
+            <br />
+            <input type="radio" name="car-type" value="sports cae" />Sports Car
+            <br />
+            <input type="radio" name="car-type" value="family car" />Family
+            car(suv etc.) <br />
+            <input type="radio" name="car-type" value="Off road" />4x4 Off
+            roading
+          </label>
+        </p>
+        <p>
+          <label for="budget" class="labels">Budget:</label>
+          <select type="list" name="budget">
+            <option>--select price--</option>
+            <option>R25000-R50000</option>
+            <option>R50000-R100000</option>
+            <option>R10000-R200000</option>
+            <option>R200000+</option>
+            <option>--custom amount--</option>
+          </select>
+        </p>
+        <p>
+          <label for="style-preference" class="labels"
+            >Style preference:</label>
+            <table>
+              <tr>
+                <td>
+                  <input
+                    type="checkbox"
+                    name="preference"
+                    value="sporty"
+                  />Sporty
+                </td>
+                <td>
+                  <input
+                    type="checkbox"
+                    name="preference"
+                    value="Automatic"
+                  />Automatic
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <input
+                    type="checkbox"
+                    name="preference"
+                    value="hatchback"
+                  />hatchback
+                </td>
+                <td>
+                  <input
+                    type="checkbox"
+                    name="preference"
+                    value="full-offroad"
+                  />Full offroad
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <input
+                    type="checkbox"
+                    name="preference"
+                    value="comfortable"
+                  />Comfortable
+                </td>
+                <td>
+                  <input
+                    type="checkbox"
+                    name="preference"
+                    value="Manual"
+                  />Manual
+                </td>
+              </tr>
+            </table>
+          
+        </p>
+        <p>
+         <button type="submit">Submit <img src="/images/contact image.png" alt="thumbs up"> </button>
+        </p>
+      </form>
+      <footer>
+        <h3>Thanks for your Co-operation </h3>
+        <div class="social-links">
+          <a href="https://www.facebook.com/"
+            ><img src="/images/facebook icon.jpeg"
+          /></a>
+          <a href="https://www.instagram.com/"
+            ><img src="/images/instagram icon.png"
+          /></a>
+          <a href="https://twitter.com/?lang=en"
+            ><img src="/images/twitter icon.png"
+          /></a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
