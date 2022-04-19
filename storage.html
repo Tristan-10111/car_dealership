@@ -1,24 +1,330 @@
-<div class="row">
-  <div class="col-1">
-    <h1 class="heading-1">About us</h1>
-    <h2>Who are we?</h2>
-    <p>
-      We are a Car dealership or in better words a vehicle local
-      distribution,<br />
-      selling New and Used pre-owned cars,<br />
-      at retail level prices based on a dealership contract
-    </p>
-    <h2>The type of vechiles we sell?</h2>
-    <p>
-      We range in all kind of vechiles to suit your style an your needs,
-      <br />
-      From family cars such as suv's to sports cars for those who love the
-      speed,<br />
-      an 4x4 offroads aswell for those who love to adventure,<br />
-      cars that are relaible for your everyday basic needs
-    </p>
-  </div>
-</div>
-<div class="col-2">
-  <img src="/images/about image.jpg" alt="" class="car" />
-</div>
+<!-- contact section -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&family=MuseoModerno:wght@300&family=Sansita+Swashed&family=Shadows+Into+Light&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header id="footer"></header>
+    <div class="container">
+      <div class="navbar">
+        <a href="https://www.autotrader.co.za/"
+          ><img src="/images/Jap autotraders.gif" alt="logo" class="logo"
+        /></a>
+        <nav>
+          <ul id="menuList">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a class="active" href="contact.html">Contact</a></li>
+            <li><a href="service.html">Service</a></li>
+          </ul>
+        </nav>
+        <img
+          src="/images/burger menu.png"
+          class="menu-icon"
+          onclick="togglemenu()"
+        />
+      </div>
+      <div class="contact-content">
+        <div class="slogan">
+          <h1>Contact us</h1>
+          <h2 style="color: lightgreen">We care about customer satisfactory</h2>
+        </div>
+      </div>
+      <form class="contact-inner-container">
+        <p>
+          <label class="labels" for="name">Full Name:</label>
+          <input type="text" name="name" />
+        </p>
+        <p>
+          <label class="labels" for="email-adress">Email adress:</label>
+          <input type="email" name="email-adress" />
+        </p>
+        <p>
+          <label class="labels" for="phone-number">Phone number:</label>
+          <input type="tel" name="phone-number" />
+        </p>
+        <p>
+          <label for="prefference" class="labels"
+            >Select your need/prefernce:
+            <br />
+            <input type="radio" name="car-type" value="sports cae" />Sports Car
+            <br />
+            <input type="radio" name="car-type" value="family car" />Family
+            car(suv etc.) <br />
+            <input type="radio" name="car-type" value="Off road" />4x4 Off
+            roading
+          </label>
+        </p>
+        <p>
+          <label for="budget" class="labels">Budget:</label>
+          <select type="list" name="budget">
+            <option>--select price--</option>
+            <option>R25000-R50000</option>
+            <option>R50000-R100000</option>
+            <option>R10000-R200000</option>
+            <option>R200000+</option>
+            <option>--custom amount--</option>
+          </select>
+        </p>
+        <p>
+          <label for="style-preference" class="labels"
+            >Style preference:</label>
+            <table>
+              <tr>
+                <td>
+                  <input
+                    type="checkbox"
+                    name="preference"
+                    value="sporty"
+                  />Sporty
+                </td>
+                <td>
+                  <input
+                    type="checkbox"
+                    name="preference"
+                    value="Automatic"
+                  />Automatic
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <input
+                    type="checkbox"
+                    name="preference"
+                    value="hatchback"
+                  />hatchback
+                </td>
+                <td>
+                  <input
+                    type="checkbox"
+                    name="preference"
+                    value="full-offroad"
+                  />Full offroad
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <input
+                    type="checkbox"
+                    name="preference"
+                    value="comfortable"
+                  />Comfortable
+                </td>
+                <td>
+                  <input
+                    type="checkbox"
+                    name="preference"
+                    value="Manual"
+                  />Manual
+                </td>
+              </tr>
+            </table>
+          
+        </p>
+        <p>
+         <button type="submit">Submit <img src="/images/contact image.png" alt="thumbs up"> </button>
+        </p>
+      </form>
+      <footer>
+        <h3>Thanks for your Co-operation </h3>
+        <div class="social-links">
+          <a href="https://www.facebook.com/"
+            ><img src="/images/facebook icon.jpeg"
+          /></a>
+          <a href="https://www.instagram.com/"
+            ><img src="/images/instagram icon.png"
+          /></a>
+          <a href="https://twitter.com/?lang=en"
+            ><img src="/images/twitter icon.png"
+          /></a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
+<!-- contact section -->
+
+<!-- services section -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&family=MuseoModerno:wght@300&family=Sansita+Swashed&family=Shadows+Into+Light&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header id="footer"></header>
+    <div class="container">
+      <div class="navbar">
+        <a href="https://www.autotrader.co.za/"
+          ><img src="/images/Jap autotraders.gif" alt="logo" class="logo"
+        /></a>
+        <nav>
+          <ul id="menuList">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a class="active" href="service.html">Service</a></li>
+          </ul>
+        </nav>
+        <img
+          src="/images/burger menu.png"
+          class="menu-icon"
+          onclick="togglemenu()"
+        />
+      </div>
+      <div class="service-section">
+        <div class="slogan">
+          <h1>Our Services</h1>
+          <h2 style="color: #ff6062">
+            What we ensure with every car that we sell:
+          </h2>
+          <ol>
+            <li>Reliability</li>
+            <li>Ensurance</li>
+            <li>Built in security systems</li>
+            <li>Full service plans</li>
+            <li>3 years Guarantee</li>
+            <li>fully Licenesd & Road worthy checks</li>
+          </ol>
+        </div>
+      </div>
+      <div class="feedback">
+        <h1>Customer feedback</h1>
+
+        <div class="row">
+          <div class="col-1">
+            <img class="img" src="/images/service img1.jpg" alt="" />
+            <h4>
+              I would give Jap Autoraders™ a 10 star rating they are one of the
+              best autotraders around
+            </h4>
+          </div>
+          <div class="col-1">
+            <img class="img" src="/images/service img2.jpg" alt="" />
+            <h4>
+              My service with Jap Autoraders™, was amazing everything was sorted
+              out for me in a few seconds i would deffinetly recommend them
+            </h4>
+          </div>
+        </div>
+        <div class="social-links">
+          <a href="https://www.facebook.com/"
+            ><img src="/images/facebook icon.jpeg"
+          /></a>
+          <a href="https://www.instagram.com/"
+            ><img src="/images/instagram icon.png"
+          /></a>
+          <a href="https://twitter.com/?lang=en"
+            ><img src="/images/twitter icon.png"
+          /></a>
+        </div>
+      </div>
+      <footer id="header">@copyright Jap Autoraders™</footer>
+    </div>
+  </body>
+</html>
+<!-- services section -->
+ <!-- <div class="row">
+        <div class="col-1">
+          <h2>
+            Toyota Hilux<br />
+            Singal Cab 2012
+          </h2>
+          <h3>3.0 D-4D(171 hp @3,600 RPM & 343nm)</h3>
+          <h3>120 000km</h3>
+          <p>Durable/Tough/good-looking/comfortable</p>
+          <p>(Tap image for more Info)</p>
+          <h4>R125 000</h4>
+          <button type="button">
+            Order now <img src="/images/arrow image.png" alt="arrow" />
+          </button>
+        </div>
+        <div class="col-2">
+          <a href="https://en.wikipedia.org/wiki/Toyota_Hilux"
+            ><img
+              src="/images/toyota hilux 2.jpg"
+              alt="toyota slantfront "
+              class="car"
+          /></a>
+          <div class="color-box"></div>
+          <div class="add-btn">
+            <img src="/images/add-btn.png" />
+            <p><small>Add to Cart</small></p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1">
+          <h2>
+            Toyota Supra<br />
+            MK4 95'
+          </h2>
+          <h3>2JZ-GTE (321 hp @7,400 RPM)</h3>
+          <h3>250 000km</h3>
+          <p>very-fast/best-looking/capable of 2000HP</p>
+          <p>(Tap image for more Info)</p>
+          <h4>R650 000</h4>
+          <button type="button">
+            Order now <img src="/images/arrow image.png" alt="arrow" />
+          </button>
+        </div>
+        <div class="col-2">
+          <a href="https://wiki2.org/en/Toyota_Supra">
+            <img src="/images/Toyota Supra.jpeg" alt="toyota ke70" class="car"
+          /></a>
+          <div class="color-box"></div>
+          <div class="add-btn">
+            <img src="/images/add-btn.png" />
+            <p><small>Add to Cart</small></p>
+          </div>
+        </div>
+      </div> -->
+
+        <!-- <h4>FEATURED LISTINGS↘</h4>
+      </div>
+      <div class="row">
+        <div class="col-1">
+          <h2>
+            Toyota carolla<br />
+            Ke70
+          </h2>
+          <h3>4A-GZE(167 hp @7,400 RPM)</h3>
+          <h3>80 000km</h3>
+          <p>sporty/good-looking/comfortable</p>
+          <p>(Tap image for more Info)</p>
+          <h4>R45 000</h4>
+          <button type="button">
+            Order now <img src="/images/arrow image.png" alt="arrow" />
+          </button>
+        </div>
+        <div class="col-2">
+          <a href="https://en.wikipedia.org/wiki/Toyota_Corolla_(E70)"
+            ><img src="/images/boxie.jpg" alt="toyota ke70" class="car"
+          /></a>
+          <div class="color-box"></div>
+          <div class="add-btn">
+            <img src="/images/add-btn.png" />
+            <p><small>Add to Cart</small></p>
+          </div>
+        </div>
+      </div> -->

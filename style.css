@@ -65,7 +65,7 @@ nav ul li a.active {
   border-radius: 10px;
 }
 .slogan {
-  margin: 10px 0 0 0;
+  margin: 100px 0 0 0;
 }
 .slogan h1 {
   color: white;
@@ -80,6 +80,7 @@ nav ul li a.active {
 }
 .slogan h4 {
   color: lightgreen;
+  font-size: 35px;
 }
 
 .slogan li {
