@@ -169,7 +169,7 @@ button:hover {
   content: "";
   width: 10px;
   height: 57%;
-  background: linear-gradient(white, red, white);
+  background: transparent;
   position: absolute;
   left: -40px;
   top: 8px;
