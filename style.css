@@ -4,8 +4,8 @@
   font-family: "MuseoModerno", cursive;
 }
 body {
-  background: rgba(0, 0, 0, 0.5);
-  background-image: url(/images/black\ brick\ background\ \,\ landing\ page.jpg);
+  background-image: url(/images/pexels-supreet-8060364\ \(1\).jpg);
+  background-size: contain;
 }
 
 .container {
@@ -28,7 +28,7 @@ body {
   margin: 30px 0;
   border-radius: 100%;
   border: 1px solid white;
-  box-shadow: 5px 5px 9px red;
+  box-shadow: 5px 5px 9px white;
 }
 
 .menu-icon {
@@ -60,7 +60,7 @@ nav ul li a:hover {
   background: rgba(0, 0, 0, 0.5);
   padding: 8px 10px;
   border-radius: 10px;
-  box-shadow: 5px 5px 9px red;
+  box-shadow: 5px 5px 9px white;
   border: 3px solid white;
 }
 
@@ -68,7 +68,7 @@ nav ul li a.active {
   background: rgba(0, 0, 0, 0.5);
   padding: 8px 10px;
   border-radius: 10px;
-  box-shadow: 5px 5px 9px red;
+  box-shadow: 5px 5px 9px white;
   border: 3px solid white;
 }
 
