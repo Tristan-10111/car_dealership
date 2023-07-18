@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>car dealership</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -14,14 +14,16 @@
     />
   </head>
   <body>
-    <section id="home">
     <div class="container">
-      <div class="navbar">
-          <img src="/images/Jap autotraders.gif" alt="logo" class="logo"/>
+    
+      <div class="hero bgTint" >  
+        <div class="navbar">
+        <img src="./images//Japan.png" alt="logo" class="logo" />
         <nav>
           <ul id="menuList">
             <li><a class="active" href="index.html">Home</a></li>
             <li><a href="#about">About</a></li>
+            <li><a href="#vechiles">Vechiles</a></li>
           </ul>
         </nav>
         <img
@@ -30,34 +32,36 @@
           onclick="togglemenu()"
         />
       </div>
-      <div class="hero">
         <h1>JAP AUTOTRADERS</h1>
-        <h2 style="text-align: center;" >DONT ONLY DREAM IT, <br />JUST DRIVE IT</h2>
-        <a href="https://www.autotrader.co.za/"><button>CHECK US OUT!!</button></a>
-      </div>
-    </section>
-      
-    <section id="about">
-     <div class="slogan">
-        <h1 style="font-size: 50px; text-shadow: 5px 5px 9px lightblue; text-decoration: underline white;">ABOUT US & <br>OUR SERVICES</h1>
-        <h2 style="color: lightskyblue; font-size: 28px; text-decoration: underline white 5px;text-shadow: 5px 5px 9px white; font-weight: bolder;text-transform: uppercase;text-align: center;">
-          ,WHY WE SHOULD BE YOUR NO.1 DEALERSHIP,
+        <h2 style="text-align: center">
+          DONT ONLY DREAM IT, <br />JUST DRIVE IT
         </h2>
-     
-
+        <a href="https://www.autotrader.co.za/"
+          ><button>CHECK US OUT!!</button></a
+        >
       </div>
-      <div class="row">
-        <div class="col-1">
-          <h2>Who are we?</h2>
-          <p>
+ 
+    <div class="about" id="about">
+      <div class="slogan">
+        <h1 class="sloganHeader">
+          ABOUT US & <br />OUR SERVICES
+        </h1>
+        <h2 class="sloganText">
+          WHY WE SHOULD BE YOUR NO.1 DEALERSHIP.
+        </h2>
+      </div>
+      <div class="aboutRow">
+        <div class="aboutCol-1">
+          <h2 class="aboutHeaders">Who are we?</h2>
+          <p class="aboutText">
             We are a Car dealership or in better words a vehicle local
             distribution,<br />
             selling New and Used pre-owned cars,<br />
             at retail level prices based on a dealership contract. <br />
             <strong>Est 21' Supiriority defined</strong>
           </p>
-          <h2>The type of vechiles we sell?</h2>
-          <p>
+          <h2 class="aboutHeaders">The type of vechiles we sell?</h2>
+          <p class="aboutText">
             We range in all kind of vechiles to suit your style an your needs,
             <br />
             From family cars such as suv's to sports cars for those who love the
@@ -66,49 +70,50 @@
             cars that are relaible for your everyday basic needs
           </p>
         </div>
-        <div class="col-2">
-          <img src="/images/about image.jpg" alt="logo image" class="car" />
+        <div class="aboutCol-2">
+          <img src="/images/about image.jpg" alt="logo image" class="aboutImage" />
         </div>
       </div>
-       <div class="row">
-        <div class="col-1">
-          <h2>
-            Toyota carolla<br />
-            Ke70
-          </h2>
-          <h3>4A-GZE(167 hp @7,400 RPM)</h3>
-          <h3>80 000km</h3>
-          <p>sporty/good-looking/comfortable</p>
-          <p>(Tap image for more Info)</p>
-          <h4>R45 000</h4>
-          <button>Order now</button>
-        </div>
-        <div class="col-2">
-          <a href="https://en.wikipedia.org/wiki/Toyota_Corolla_(E70)"
-            ><img src="/images/boxie.jpg" alt="toyota ke70" class="car"
-          /></a>
-          </div>
-        </div>
+    </div>
+    <!-- ending about page -->
+  <div class="vechiles" id="vechiles">
+    <div class="row">
+      <div class="col-1">
+        <h2>
+          Toyota carolla<br />
+          Ke70
+        </h2>
+        <h3>4A-GZE(167 hp @7,400 RPM)</h3>
+        <h3>80 000km</h3>
+        <p>sporty/good-looking/comfortable</p>
+        <p>(Tap image for more Info)</p>
+        <h4>R45 000</h4>
+        <button>Order now</button>
       </div>
-    </section>
-      <footer>
-        <h3 style="text-align: center">Find out more about us on our social links</h3>
-        <div class="social-links">
-          <a href="https://www.facebook.com/"
-            ><img src="/images/facebook icon.jpeg"
-          /></a>
-          <a href="https://www.instagram.com/"
-            ><img src="/images/instagram icon.png"
-          /></a>
-          <a href="https://twitter.com/?lang=en"
-            ><img src="/images/twitter icon.png"
-          /></a>
-        </div>
-        <p>@Copyright JapAutotraders™</p>
-      </footer>
+      <div class="col-2">
+        <a href="https://en.wikipedia.org/wiki/Toyota_Corolla_(E70)"
+          ><img src="/images/boxie.jpg" alt="toyota ke70" class="car"
+        /></a>
+      </div>
     </div>
-    </div>
-  </section>
+  </div>
+    <footer class="footer">
+      <h3>
+        Find out more about us on our social links
+      </h3>
+      <div class="social-links">
+        <a href="https://www.facebook.com/"
+          ><img src="/images/facebook icon.jpeg"
+        /></a>
+        <a href="https://www.instagram.com/"
+          ><img src="/images/instagram icon.png"
+        /></a>
+        <a href="https://twitter.com/?lang=en"
+          ><img src="/images/twitter icon.png"
+        /></a>
+      </div>
+      <p>@Copyright JapAutotraders™</p>
+    </footer>
 
     <script>
       var menuList = document.getElementById("menuList");
