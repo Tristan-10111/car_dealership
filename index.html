@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+  <!-- head -->
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -13,45 +14,39 @@
       rel="stylesheet"
     />
   </head>
+  <!-- head -->
   <body>
+    <!-- main div start -->
     <div class="container">
-    
-      <div class="hero bgTint" >  
+      <!-- div 1-->
+
+      <div class="hero bgTint">
         <div class="navbar">
         <img src="./images//Japan.png" alt="logo" class="logo" />
-        <nav>
+        <nav class="navlinks">
           <ul id="menuList">
             <li><a class="active" href="index.html">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#vechiles">Vechiles</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
-        <img
-          src="/images/burger menu.png"
-          class="menu-icon"
-          onclick="togglemenu()"
-        />
-      </div>
-        <h1>JAP AUTOTRADERS</h1>
-        <h2 style="text-align: center">
-          DONT ONLY DREAM IT, <br />JUST DRIVE IT
-        </h2>
-        <a href="https://www.autotrader.co.za/"
-          ><button>CHECK US OUT!!</button></a
-        >
-      </div>
- 
+        </div>
+      <h1>JAP AUTOTRADERS</h1>
+      <h2 style="text-align: center">
+        DONT ONLY DREAM IT, <br />JUST DRIVE IT
+      </h2>
+      <a href="https://www.rentadeal.co.za/"><button>CHECK US OUT!!</button></a>
+    </div>
+    <!--div 1 end-->
+
     <div class="about" id="about">
       <div class="slogan">
-        <h1 class="sloganHeader">
-          ABOUT US & <br />OUR SERVICES
-        </h1>
-        <h2 class="sloganText">
-          WHY WE SHOULD BE YOUR NO.1 DEALERSHIP.
-        </h2>
+        <h1 class="sloganHeader">ABOUT US & <br />OUR SERVICES</h1>
+        <h2 class="sloganText">WHY WE SHOULD BE YOUR NO.1 DEALERSHIP.</h2>
       </div>
-      <div class="aboutRow">
-        <div class="aboutCol-1">
+      <div class="row">
+        <div class="col-1">
           <h2 class="aboutHeaders">Who are we?</h2>
           <p class="aboutText">
             We are a Car dealership or in better words a vehicle local
@@ -70,37 +65,54 @@
             cars that are relaible for your everyday basic needs
           </p>
         </div>
-        <div class="aboutCol-2">
-          <img src="/images/about image.jpg" alt="logo image" class="aboutImage" />
+        <div class="col-2">
+          <img
+            src="/images/about image.jpg"
+            alt="logo image"
+            class="aboutImage"
+          />
         </div>
       </div>
     </div>
     <!-- ending about page -->
-  <div class="vechiles" id="vechiles">
-    <div class="row">
-      <div class="col-1">
-        <h2>
-          Toyota carolla<br />
-          Ke70
-        </h2>
-        <h3>4A-GZE(167 hp @7,400 RPM)</h3>
-        <h3>80 000km</h3>
-        <p>sporty/good-looking/comfortable</p>
-        <p>(Tap image for more Info)</p>
-        <h4>R45 000</h4>
-        <button>Order now</button>
-      </div>
-      <div class="col-2">
-        <a href="https://en.wikipedia.org/wiki/Toyota_Corolla_(E70)"
-          ><img src="/images/boxie.jpg" alt="toyota ke70" class="car"
-        /></a>
+    <div class="vechiles bgTint" id="vechiles">
+      <div class="row">
+        <div class="col-1">
+          <a href="https://en.wikipedia.org/wiki/Toyota_Corolla_(E70)"
+            ><img src="/images/boxie.jpg" alt="toyota ke70" class="car"
+          />
+        </a>
+        </div>
+        <div class="col-2">
+           <h2>
+            Toyota carolla<br />
+            Ke70
+          </h2>
+          <h3>4A-GZE(167 hp @7,400 RPM)</h3>
+          <h3>80 000km</h3>
+          <p>sporty/good-looking/comfortable</p>
+          <p>(Tap image for more Info)</p>
+          <h4>R45 000</h4>
+          <div>
+            <button>Order now</button>
+            <button>browse our fleet</button>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-    <footer class="footer">
-      <h3>
-        Find out more about us on our social links
-      </h3>
+    <div class="contact" id="contact">
+      <div class="row">
+      <div class="col-1">
+          <h1 class="contactHeader">Contact us</h1>
+      </div>
+      <div class="col-2">
+        <h1 class="contactHeader"> test</h1>
+      </div>
+    </div>
+      
+    </div>
+    <footer class="footer bgTint">
+      <h3>Find out more about us on our social links</h3>
       <div class="social-links">
         <a href="https://www.facebook.com/"
           ><img src="/images/facebook icon.jpeg"
@@ -114,17 +126,5 @@
       </div>
       <p>@Copyright JapAutotraders™</p>
     </footer>
-
-    <script>
-      var menuList = document.getElementById("menuList");
-      menuList.style.maxHeight = "0px";
-      function togglemenu() {
-        if (menuList.style.maxHeight == "0px") {
-          menuList.style.maxHeight = "130px";
-        } else {
-          menuList.style.maxHeight = "0px";
-        }
-      }
-    </script>
   </body>
 </html>
